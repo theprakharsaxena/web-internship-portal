@@ -10,9 +10,7 @@ import { ContactPage, LinkedIn } from "@mui/icons-material";
 
 // fyhfh
 
-const LinkedInProfileURL =
-  "https://www.linkedin.com/in/shivam-raghuvanshi-890b0b160/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app";
-
+const LinkedInProfileURL = "https://www.linkedin.com/in/prakhar-saxena-ps/";
 const handleLinkedInClick = () => {
   window.open(LinkedInProfileURL, "_blank");
 };

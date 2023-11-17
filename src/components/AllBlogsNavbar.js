@@ -14,7 +14,7 @@ const AllBlogsNavbar = () => {
             }}
             to="/"
           >
-            <img src="/logo.jpeg" height={50} alt="logo"/>
+            <img src="/logo.jpeg" height={50} alt="logo" />
             <Typography
               variant="h6"
               color="black"
@@ -22,7 +22,7 @@ const AllBlogsNavbar = () => {
               marginTop="2px"
               marginLeft="1rem"
             >
-              Mentoring In New Dimensions
+              Internship Portal
             </Typography>
           </Link>
         </Typography>
@@ -32,7 +32,7 @@ const AllBlogsNavbar = () => {
           </Link>
           <a
             style={{ marginLeft: "20px", color: "black" }}
-            href="https://www.linkedin.com/company/connect-with-mind/"
+            href="https://www.linkedin.com/in/prakhar-saxena-ps/"
             target="_blank"
             rel="noreferrer"
           >

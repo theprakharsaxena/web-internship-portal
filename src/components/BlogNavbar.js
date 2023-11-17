@@ -2,7 +2,6 @@ import { AppBar, Toolbar, Typography, Box } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const BlogNavBar = () => {
-
   return (
     <AppBar position="static" color="inherit">
       <Toolbar>
@@ -15,7 +14,7 @@ const BlogNavBar = () => {
             }}
             to="/"
           >
-            <img src="/logo.jpeg" height={50} alt="logo"/>
+            <img src="/logo.jpeg" height={50} alt="logo" />
             <Typography
               variant="h6"
               color="black"
@@ -23,7 +22,7 @@ const BlogNavBar = () => {
               marginTop="2px"
               marginLeft="1rem"
             >
-              Mentoring In New Dimensions
+              Internship Portal
             </Typography>
           </Link>
         </Typography>

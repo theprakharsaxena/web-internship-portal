@@ -23,10 +23,17 @@ const HomePage = () => {
         <Grid item xs={7}>
           <Grid container marginRight={5}>
             <Grid item xs={4}>
-              <img src="/slider1.png" height={250} alt="slider1"/>
+              <img src="/slider1.png" height={250} alt="slider1" />
             </Grid>
             <Grid item xs={8} height={250}>
-              <Typography height="100%" display="flex" justifyContent="start" alignItems="center" fontSize="24px" fontWeight="900">
+              <Typography
+                height="100%"
+                display="flex"
+                justifyContent="start"
+                alignItems="center"
+                fontSize="24px"
+                fontWeight="900"
+              >
                 Your one-stop solution for all your jobs and internship-related
                 queries.
               </Typography>
@@ -34,13 +41,11 @@ const HomePage = () => {
           </Grid>
         </Grid>
         <Grid item xs={5}>
-          <a
-            href="https://topmate.io/shivam_raghuvanshi"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="/topmate.jpeg" height={200} alt="topmate"/>
-          </a>
+          <img
+            src="/internship-with-us.jpeg"
+            height={200}
+            alt="Internship with us"
+          />
         </Grid>
       </Grid>
       <Grid container spacing={5} marginY={2} marginX={1}>
@@ -100,11 +105,11 @@ const HomePage = () => {
             <Typography color="gray">
               LinkedIn :{" "}
               <a
-                href="https://www.linkedin.com/company/connect-with-mind/"
+                href="https://www.linkedin.com/in/prakhar-saxena-ps/"
                 target="_blank"
                 rel="noreferrer"
               >
-                MIND-Mentoring In New Dimensions
+                Internship Portal
               </a>
             </Typography>
             <Typography>
